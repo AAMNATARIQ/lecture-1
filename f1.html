@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Git Tutorial</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg bg-dark navbar-text navbar-custom">
+          <div class="container-fluid">
+    <!-- {#        <a class="navbar-brand" href="#">Navbar</a>#} -->
+              <h3>GitTutorial </h3>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <!-- {#            <li class="nav-item active">#} -->
+                  <a class="nav-link" aria-current="page" href="/home">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Downloads</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+           <div class="butttondiv">
+            <form class="container-fluid">
+                <!-- <a class="btn btn-sm logoutbutton1" href="/logout">LOGOUT</a> -->
+            </form>
+           </div>
+        </nav>
+    </header>
+
+    <div class="content my-5">
+        <div class="container">
+            <div class="single-content">
+                <p>How to use gitHub</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="content my-5">
+      <div class="container">
+          <div class="single-content">
+              <button class="btn-sm btn">Step 1</button>
+          </div>
+          <div class="my-3 mx-5">
+            <p>Create an account on <b>github</b> <a href="https://github.com">https://github.com</a></p>
+          </div>
+      </div>
+    </div>  
+    
+    <div class="content my-5">
+      <div class="container">
+          <div class="single-content">
+              <button class="btn-sm btn">Step 2</button>
+          </div>
+          <div class="my-3 mx-5">
+            <p>You can also download <b>git</b> <a href="https://git-scm.com/downloads">https://git-scm.com/downloads</a></p>
+          </div>
+      </div>
+    </div>  
+
+    <div class="content my-5">
+      <div class="container">
+          <div class="single-content">
+              <button class="btn-sm btn">Step 3</button>
+          </div>
+          <div class="my-3 mx-5">
+            <p class="heading">create html and css Files</p>
+            <p>Create an html and css file as shown in the picture below.</p> 
+            <img src="static/strat-htmlfile.png" alt="htmlfile">
+            <br><br><br>
+            <img src="static/start-cssfile.png" alt="cssfile">
+            <br><br><br>
+            <img src="static/start-webpage.png" alt="webpage">
+          </div>
+      </div>
+    </div> 
+
+    <div class="content my-5">
+      <div class="container">
+          <div class="single-content">
+              <button class="btn-sm btn">Step 4</button>
+          </div>
+          <div class="my-3 mx-5">
+            <p class="heading">git init</p>
+            <p>This command initializes a local git repository and makes a <b>.git</b> folder where project is made. This can be seen in the pictures below.</p>
+            <img src="static/git init.png" alt="git init command">
+            <br><br><br>
+            <img src="static/git init result.png" alt="git init result">
+          
+          </div>
+      </div>
+    </div> 
+    
+
+    <div class="content my-5">
+      <div class="container">
+          <div class="single-content">
+              <button class="btn-sm btn">Step 5</button>
+          </div>
+          <div class="my-3 mx-5">
+            <p class="heading">git status</p>
+            <p>The git status command displays the state of the working directory and the staging area. It lets you see which changes have been staged, which haven't, and which files aren't being tracked by Git. The pictures below show what happens when we give this command.</p>
+            <img src="static/git status.png" alt="git init command">
+          </div>
+      </div>
+    </div> 
+
+    <div class="content my-5">
+      <div class="container">
+          <div class="single-content">
+              <button class="btn-sm btn">Step 6</button>
+          </div>
+          <div class="my-3 mx-5">
+            <p class="heading">git add</p>
+            <p>git add. The git add command adds a change in the working directory to the staging area. It tells Git that you want to include updates to a particular file in the next commit. However, git add doesn't really affect the repository in any significant way—changes are not actually recorded until you run git commit . The pictures below show what happens when we give this command.</p>
+            <img src="static/git add f1.html.png" alt="git init command">
+            <br><br>
+            <p>Now by add f1.html, we will check the status. Status shows that <b>f1.html</b> is tracked while <b>style.css</b> is untracked.</p>
+            <br>
+            <img src="static/part 5.png" alt="git init command">
+          </div>
+      </div>
+    </div> 
+
+    <div class="content my-5">
+      <div class="container">
+          <div class="single-content">
+              <button class="btn-sm btn">Step 7</button>
+          </div>
+          <div class="my-3 mx-5">
+            <p class="heading">git add .</p>
+            <p>The git add command adds a change in the working directory to the staging area. It tells Git that you want to include updates to a particular file in the next commit. However, git add doesn't really affect the repository in any significant way—changes are not actually recorded until you run git commit. It adds files at once and we need not to add files separately. The pictures below show what happens when we give this command.</p>
+            <img src="static/point 6.png" alt="git init command">
+            <br><br>
+            <p>Now using <b>git status</b> command, we check the current status of the files.</p>
+            <br>
+            <img src="static/point 7.png" alt="git init command">
+          </div>
+      </div>
+    </div> 
+
+    <div class="content my-5">
+      <div class="container">
+          <div class="single-content">
+              <button class="btn-sm btn">Step 8</button>
+          </div>
+          <div class="my-3 mx-5">
+            <p class="heading">git rm --cached f1.html</p>
+            <p>The git rm command removes a file from a Git repository. This command removes a file from your file system and then removes it from the list of files tracked by a Git repository. The –cached flag lets you delete a file from a Git repository without deleting it on your file system.</p>
+            <p>Now using <b>git status</b> command, we check the current status of the files.</p>
+            <img src="static/point 8.png" alt="git init command">        
+          </div>
+      </div>
+    </div> 
+
+    <div class="content my-5">
+      <div class="container">
+          <div class="single-content">
+              <button class="btn-sm btn">Step 9</button>
+          </div>
+          <div class="my-3 mx-5">
+            <p class="heading">git add .</p>
+            <p>The git add command adds a change in the working directory to the staging area.</p>
+            <p>Now using <b>git status</b> command, we check the current status of the files.</p>
+            <img src="static/point 9.png" alt="git init command">        
+          </div>
+      </div>
+    </div> 
+
+    <div class="content my-5">
+      <div class="container">
+          <div class="single-content">
+              <button class="btn-sm btn">Step 10</button>
+          </div>
+          <div class="my-3 mx-5">
+            <p class="heading">git commit -m "message"</p>
+            <p>commits a change set from the working directory into the repository.</p>
+            <img src="static/point 10-1.png" alt="git init command">        
+          </div>
+      </div>
+    </div> 
+
+    <div class="content my-5">
+      <div class="container">
+          <div class="single-content">
+              <button class="btn-sm btn">Step 11</button>
+          </div>
+          <div class="my-3 mx-5">
+            <p class="heading">github Explore</p>
+            <p>notifications+explore</p>
+            <!-- <img src="static/point 9.png" alt="git init command">         -->
+          </div>
+      </div>
+    </div> 
+
+    <div class="content my-5">
+      <div class="container">
+          <div class="single-content">
+              <button class="btn-sm btn">Step 12</button>
+          </div>
+          <div class="my-3 mx-5">
+            <p class="heading">Create a repository on GitHub</p>
+            <p>In the upper-right corner of any page, use the drop-down menu, and select New repository.</p>
+            <img src="static/point 12 - make new rep.png" alt="git init command">        
+          </div>
+      </div>
+    </div> 
+
+    <div class="content my-5">
+      <div class="container">
+          <div class="single-content">
+              <button class="btn-sm btn">Step 13</button>
+          </div>
+          <div class="my-3 mx-5">
+            <p class="heading">Provide details of repository on your account</p>
+            <p>Now, to make a repository fill in the nescessary information.</p>
+            <img src="static/point 13.png" alt="git init command">        
+            <br><br><br>
+            <img src="static/point 14.png" alt="git init command">        
+          </div>
+      </div>
+    </div>
+
+    <div class="content my-5">
+      <div class="container">
+          <div class="single-content">
+              <button class="btn-sm btn">Step 14</button>
+          </div>
+          <div class="my-3 mx-5">
+            <p class="heading">Github Repository</p>
+            <p>url of repository is given. Following picture shows it.</p>
+            <img src="static/point 16.png" alt="git init command">        
+          </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6 col-xs-12 segment-one md-mb-30 sm-mb-30">
+                        <h3>GitTutorial</h3>
+                        <p>This git tutorial site helps you how to use github and along with it all the git commands, stepwise.</p>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12 segment-two md-mb-30 sm-mb-30">
+                        <h2>Useful link</h2>
+                        <ul>
+                            <li><a href="#">Event</a></li>
+                            <li><a href="#">Support</a></li>
+                            <li><a href="#">Hosting</a></li>
+                            <li><a href="#">Career</a></li>
+                            <li><a href="#">Blog</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12 segment-three sm-mb-30">
+                        <h2>Follow us</h2>
+                        <p class="socials">Please follow us on our social media profile in order to keep updated.</p>
+                        <i class="fa fa-facebook"></i>
+                        <i class="fa fa-github"></i>
+                        <i class="fa fa-pinterest"></i>
+                        <i class="fa fa-twitter"></i>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12 segment-four sm-mb-30">
+                        <h2>Our Newsletter</h2>
+                        <p>Kindly subscribe to our newsletter</p>
+                        <form action="">
+                            <input type="email">
+                            <input type="submit" value="Subscribe">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="footer-bottom-text">All rights reserved by &copy;GitTutorial.2022</p>
+    </footer>
+
+    
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.0/js/bootstrap.min.js">
+</body>
+</html>
