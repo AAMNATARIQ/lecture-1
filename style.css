@@ -2,6 +2,10 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+
+    /* justify-content: center;
+    align-items: center; */
+
 }
 
 .navbar-custom{
@@ -283,4 +287,47 @@ img{
     border: 1px solid teal;
     padding: 1rem 1rem;
     vertical-align: middle;
+}
+
+
+
+/* main heading */
+.heading2{
+    margin: 23%;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: verdana;
+    font-size: 30px;
+
+    width: 55%;
+    height: 50%;
+}
+.heading2 h2{
+    font-family: verdana;
+    position: relative;
+    font-size: 100px;
+    font-weight: bold;
+    color: #fff;
+    -webkit-text-stroke: 0.3vw rgb(3, 87, 87);
+}
+.heading2 h2::before{
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    color: teal;
+    -webkit-text-stroke: 0vw rgb(3, 87, 87);
+    border-right: 5px solid #111;
+    overflow: hidden;
+    animation: animate 6s linear infinite;
+}
+@keyframes animate{
+    0%,10%,100%{
+        width: 0;
+    }
+    70%,90%{
+        width: 100%;
+    }
 }
